@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    border-radius: 10px;
+}
+
+.imagem img{
+    width: 330px;
+    height: 450px;
+    border-radius: 20px;
+
+}
+
+.card_branco{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 3px 2px 1px rgba(0, 0, 0, 0.1);
+    width: 330px;
+    height: 450px;
+    border-radius: 0 10px 10px 0;
+}
+
+.card_branco span{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.card_branco h2{
+    width: 200px;
+    text-transform: capitalize;
+    font-family:'Fraunces', serif;
+    text-align: left;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.card_branco p{
+    width: 300px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 20px 0;
+}
+
+.precos{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.precos .preco1{
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    color: hsl(158, 36%, 37%);
+    margin-right: 30px;
+    
+}
+
+.precos .preco2{
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+     
+}
+
+.botao img{
+    width: 10px;
+}
+.botao a{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 10px;
+
+    background-color:hsl(158, 36%, 37%);
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    margin-left: 40px;
+    border-radius: 3px;
+}
+
